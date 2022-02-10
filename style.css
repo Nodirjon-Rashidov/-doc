@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    justify-content:center;
+    background-color:rgb(114, 74, 141);
+}
+div{
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color:rgb(146, 146, 146);
+    width: 855px;
+    height: 520px;
+    display:inline-block;
+}
+.card1{
+    border-radius:0%;
+    border-right: solid rgba(117, 112, 112, 0.301);
+    width: 280px;
+    height: 440px;
+}
+.card2{ 
+    width: 280px;
+    height: 440px;
+}
+.card3{
+    border-radius:0%;
+    border-left: solid rgba(117, 112, 112, 0.301) ;
+    width: 280px;
+    height: 440px;
+}
+ h2{
+     color:blue;
+ }   
+ p{
+    border-top: rgba(0, 0, 0, 0.233) solid 2px;
+    border-bottom: rgba(15, 15, 15, 0.13) solid 2px;
+    width: fit-content;
+    margin: auto;
+    padding: 7px;
+    margin-top: 28px;
+    padding-left: 0;
+    padding-right: 0;
+}
+ .btn-grad {background-image: linear-gradient(to right, #EF3B36 0%, #FFFFFF  51%, #EF3B36  100%)}
+ .btn-grad {
+    margin:auto;
+    margin: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display:inline-block;
+  }
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
